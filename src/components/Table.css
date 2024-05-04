@@ -1,0 +1,19 @@
+.user-table{
+    margin: 10%;
+}
+
+tr, th, td{
+    border:1px solid black;
+}
+
+.email{
+    width:250px;
+}
+
+.name{
+    width:200px;
+}
+
+.tableButton{
+    width:150px;
+}
