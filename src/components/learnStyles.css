@@ -25,4 +25,16 @@
     background-color: #100f59;
     border-radius: 5px;
 }
-  
+.but-home{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #100f59;
+    border-radius: 25px;
+    background: #100f59;
+    color:white;
+    margin:30px
+    
+}
+.first{
+
+}

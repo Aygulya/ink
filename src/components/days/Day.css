@@ -5,3 +5,88 @@
     border-radius: 25px;
     margin: 5%;
 }
+.allDay{
+    margin: 0 30px;
+}
+.textDay, .textDay8{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.textDay, .textDay8 img {
+    max-width: 100%; /* Сделает изображение адаптивным и не позволит ему быть больше родительского блока */
+    height: auto; /* Поддержит соотношение сторон изображения */
+}
+
+.textListDay{
+    text-align: left;
+}
+
+.bold{
+    font-weight: bold;
+}
+.photoDay1{
+    max-width: 90%;
+}
+.bookContainer {
+    position: relative; /* Сделаем этот контейнер относительно позиционированным */
+    width: 500px;
+    height: auto; /* Можно использовать фиксированную высоту, если это нужно */
+}
+
+.bookContainer img {
+    position: absolute; /* Позиционируем страницы абсолютно внутри контейнера */
+    /* top: 0;
+    left: 10; */
+    /* margin:50px 0; */
+    opacity: 0; /* Начнем с нулевой прозрачности */
+    transition: opacity 0.5s ease; /* Добавим плавный переход для анимации появления */
+}
+
+.bookContainer img.visible {
+    opacity: 1; /* Показываем только видимые страницы */
+}
+.buttonsBook{
+    /* display: flex;
+    justify-content: space-between; */
+}
+.book{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.prev, .next{
+    height: 500px;
+    width: 200px;
+    border: none;
+    background: none;
+    margin:50px;
+}
+/* .next{
+    margin-left:20px;
+} */
+.arrow{
+    width: 40px;
+    height:40px;
+}
+.textDay8{
+    text-indent: 0px;
+}
+.darkBlue{
+    color:#191970
+}
+.blue{
+color:#0000CD
+}
+.orange{
+    color:#FF7F50;
+}
+.darkOrange{
+    color:#FF4500
+}
+.green{
+color:chartreuse
+}
+.red{
+color:red
+}

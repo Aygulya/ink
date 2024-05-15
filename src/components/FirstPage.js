@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import LoginComponent from './login/LogIn';
 import RegisterComponent from './login/Registration';
+import './learnStyles.css'
 
 const FirstPage = ()=>{
     const [showRegistration, setShowRegistration] = useState(false);
@@ -18,8 +19,8 @@ const FirstPage = ()=>{
       };
     return(
 <div className="content-container">
-  <h1>HELLO</h1>
-  <div >
+  <h2>HELLO</h2>
+  <div className='first'>
 <button onClick={handleRegistrationClick} className="but-home" >
           Registration
         </button>
