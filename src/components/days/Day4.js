@@ -1,4 +1,19 @@
 import React from 'react'
+import img1 from "../assets/image/tikets/01.png"
+import img2 from "../assets/image/tikets/02.png"
+import img3 from "../assets/image/tikets/03.png"
+import img4 from "../assets/image/tikets/04.png"
+import img5 from "../assets/image/tikets/05.png"
+import img6 from "../assets/image/tikets/06.png"
+import img7 from "../assets/image/tikets/07.png"
+import img8 from "../assets/image/tikets/08.png"
+import img9 from "../assets/image/tikets/09.png"
+import img10 from "../assets/image/tikets/10.png"
+import img11 from "../assets/image/tikets/11.png"
+import img12 from "../assets/image/tikets/12.png"
+import img13 from "../assets/image/tikets/13.png"
+
+
 import "./Day.css"
 const Day4 = () =>{
 
@@ -151,6 +166,21 @@ XXX<br/>
 Чтобы активировать карту, необходимо лишь деактивировать и
 активировать аккаунт заново.
         </p>
+        <p className='textDay8'>
+        <img src={img1}/>
+                <img src={img2}/>
+                <img src={img3}/>
+                <img src={img4}/>
+                <img src={img5}/>
+                <img src={img6}/>
+                <img src={img7}/>
+                <img src={img8}/>
+                <img src={img9}/>
+                <img src={img10}/>
+                <img src={img11}/>
+                <img src={img12}/>
+                <img src={img13}/>
+            </p>
         </div>
     )
 }

@@ -1,5 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Day.css"
+import banki from '../assets/image/banki1.png'
+import banki1 from '../assets/image/banki-2.png'
 const Day9 = () =>{
 
     return(
@@ -55,6 +58,13 @@ const Day9 = () =>{
 Все случаи индивидуальны, но это основные моменты, по которым мы
 первично сможем определить причину расхождения.
 </p>
+<p className='textDay8'>
+    <img src={banki}/>
+    <img src={banki1}/>
+</p>
+<Link to='https://docs.google.com/spreadsheets/d/12sSKbMnPkdBMl82fjsbMGUAYihEex_bq3G-BBw4pLkE/edit?usp=sharing'>
+Таблица сверки расхождения
+</Link>
         </div>
     )
 }

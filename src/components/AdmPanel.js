@@ -11,6 +11,7 @@ import Day7 from './days/Day7';
 import Day8 from './days/Day8';
 import Day9 from './days/Day9';
 import Day10 from './days/Day10';
+import StartDay from './startDay';
 
 function AdmPanel(){
 const navigate= useNavigate()
@@ -24,13 +25,14 @@ const navigate= useNavigate()
         <>
         <div className='panelsButtons'>
             панель
+            <StartDay/>
             {/* <button>Dat dostyp ko dny</button> */}
             <button onClick={datDostup}>Dat dostup ko vsei programme</button>
             <button>Dobavit test</button>
 {/* <button>Redaktirovat test</button>
 <button>Proverit test</button> */}
-<button>Dobavit studentov</button>
-            <button>Sdelat adminom</button>
+{/* <button>Dobavit studentov</button>
+            <button>Sdelat adminom</button> */}
 
         </div>
         <div className='days'>

@@ -17,3 +17,11 @@ h2{
     border: 1px solid #100f59;
     border-radius: 20px;
 }
+.but-login{
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+border:2px solid white;
+font-size:15px;
+color:#100f59;
+}

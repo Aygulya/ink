@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { firebaseAuth } from "../../firebase";
 import { useNavigate } from 'react-router-dom';
 import './form.css';
+import { AuthContext } from '../utils/AuthContext';
 
 const LoginComponent = () => {
   const [email, setEmail] = useState('');
@@ -10,14 +11,23 @@ const LoginComponent = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const [showModal, setShowModal] = useState(false);
   const navigate = useNavigate();
+  const { user, isBlocked } = useContext(AuthContext);
+
 
   const handleLogin = async () => {
     try {
-      const { user } = await signInWithEmailAndPassword(firebaseAuth, email, password.padEnd(6,0));
+      const { user } = await signInWithEmailAndPassword(firebaseAuth, email, password.padEnd(6,0), );
 
       // Проверяем, заблокирован ли пользователь
-      if (user  && !user.disabled) {
-        navigate('/mainScreen');
+      // if (user  && !user.disabled) {
+        if(user){
+if(isBlocked == false){
+  navigate('/mainScreen');
+}
+else{
+  navigate('/ozhidaem')
+}
+
       } else {
         setErrorMessage('Your account is blocked or deleted.');
         setShowModal(true);
@@ -39,16 +49,16 @@ const LoginComponent = () => {
   return (
     <>
       <div className="form-container">
-        <h2>LOGIN</h2>
+        {/* <h2>LOGIN</h2> */}
         <input type="text" placeholder="Username" value={email} onChange={(e) => setEmail(e.target.value)} className='input-form'/>
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} className='input-form'/>
-        <button onClick={handleLogin} className='but-home'>Login</button>
+        <button onClick={handleLogin} className='but-login'>войти</button>
       </div>
       {showModal && (
         <div className="modal">
           <div className="modal-content">
             <h1>{errorMessage}</h1>
-            <button onClick={handleCloseModal} className='but-home'>Close</button>
+            <button onClick={handleCloseModal} className='but-login'>Close</button>
           </div>
         </div>
       )}

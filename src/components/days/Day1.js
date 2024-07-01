@@ -38,7 +38,7 @@ const Day1 = () =>{
 партнёрским отделом и своей технической поддержкой насчитывающая
 около 80 сотрудников.</p>
 <p className='textDay'>Платёжная система на базе p2p начинала с 80 банковских карт и 30
-держателей этих карт. На данный момент мы имеем <span className='bold'>44 000</span> карт и <span className='bold'>6500 </span> 
+держателей этих карт. На данный момент мы имеем <span className='bold'>53 000</span> карт и <span className='bold'>7000 </span> 
  сотрудников (Дропов - держателей карт).</p>
 <p className='textDay'>Наша техническая поддержка работает 24/7 и оказывает профессиональное
 консультирование практически по любому вопросу наших сотрудников.
@@ -83,6 +83,9 @@ const Day1 = () =>{
 сотрудники TaC) 
     </li>
 </ul>
+<p className='textDay8'>
+    <BookAnimation/>
+</p>
 <h3>Иерархия</h3>
 <p className='textDay8'>
 <img src={ierarhia} alt="Иерархия" />
@@ -131,9 +134,7 @@ const Day1 = () =>{
 <p className='textDay8'>
     <img src={chats} alt='Chats'/>
 </p>
-<p className='textDay8'>
-    <BookAnimation/>
-</p>
+
 
         </div>
     )

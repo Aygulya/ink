@@ -284,6 +284,7 @@ const UserManagement = () => {
           ...doc.data()
         }));
         setUsers(userList);
+        console.log("userList.isAdmin", userList)
       } catch (error) {
         console.error('Error fetching users:', error);
       }

@@ -1,17 +1,21 @@
 import React from 'react'
 import "./Day.css"
-import limit from '../assets/image/limitsBanks.jpg'
-import spisok from '../assets/image/spisokUrovni.jpg'
-import img1 from '../assets/image/day5.png'
-import img2 from '../assets/image/day5.2.png'
-import orOrBl from '../assets/image/orange.png'
+import { Link } from 'react-router-dom'
+// import limit from '../assets/image/limitsBanks.jpg'
+// import spisok from '../assets/image/spisokUrovni.jpg'
+// import img1 from '../assets/image/day5.png'
+// import img2 from '../assets/image/day5.2.png'
+// import orOrBl from '../assets/image/orange.png'
 const Day5 = () =>{
 
     return(
         <div className= "allDay">
             
-           
-          <h3> БАЛАНС:</h3>
+           <p className='textDay'>
+
+            <Link to='https://forms.gle/bsLABmywyXgZLegH6'>тест для операторов 1ой недели</Link>
+           </p>
+          {/* <h3> БАЛАНС:</h3>
           <p className='textDay'>
 Балансом считается баланс рабочих средств. В него не входит
 вознаграждение.<br/>
@@ -86,7 +90,7 @@ const Day5 = () =>{
             <h3>Оранжевая и Синаяя</h3>
 <p className='textDay8'>
     <img src={orOrBl} alt='Orange & Blue'/>
-</p>
+</p> */}
         </div>
     )
 }

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import img1 from '../assets/image/principRabotySistemy.png'
 import img2 from '../assets/image/pytSosdaniaZayavki.png'
 import img3 from '../assets/image/pytZayavki.png'
+import newWay from '../assets/image/newWay.jpg'
 import chatDrop from '../assets/image/chatDrop.jpg'
 import img4 from '../assets/image/1.png'
 import img5 from '../assets/image/2.png'
@@ -79,7 +80,10 @@ const Day2 = () => {
             <p className='textDay8'>
             <img src={img3}/>
             </p>
-            <h3>Брошюра для дропов</h3>
+            <p className='textDay8'>
+            <img src={newWay}/>
+            </p>
+            {/* <h3>Брошюра для дропов</h3>
             <p className='textDay8'>
             <img src={chatDrop}/>
             </p>
@@ -89,7 +93,7 @@ const Day2 = () => {
             <img src={img5}/>
             <img src={img6}/>
             <img src={img7}/>
-            </p>
+            </p> */}
             <Link to="/https://docs.google.com/presentation/d/1UAqsvwk0bVTGitlzcpMsSTM1S-Sn9UAoMS3zK4Qbrmo/edit?usp=sharing">Презинтация - "работа по синей"</Link>
        <h3>СХЕМА РАБОТЫ ПО СИНЕЙ</h3>
        <p className='textDay'>

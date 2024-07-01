@@ -25,15 +25,19 @@ import Dostup from './components/Dostup';
 import DeleteUser from './components/login/DeleteUser';
 import UserManagement from './components/UserManagment';
 import { AuthProvider } from './components/utils/AuthContext';
+import Ozhidaem from './components/Ozhidaem';
 
 function App() {
   return (
     <AuthProvider>
     <div className="App">
-      <Header />
+    <Routes>
+          <Route path='/' element={<FirstPage/>}/>
+          </Routes>
+       {/* <Header />  */}
 
         <Routes>
-          <Route path='/' element={<FirstPage/>}/>
+          <Route path='ozhidaem' element={<Ozhidaem/>}/>
           <Route path='registration' element={<RegisterComponent/>}/>
           <Route path='login' element={<LoginComponent/>}/>
           

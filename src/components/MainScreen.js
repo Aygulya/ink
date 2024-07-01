@@ -1,33 +1,9 @@
-// // components/MainScreen.js
-// import React from 'react';
-// import { useNavigate } from 'react-router-dom';
-// import LearningProgress from './LearningProgress';
 
-// function MainScreen() {
-//   const navigate = useNavigate();
-
-//   const goToLearn = () => {
-//     navigate('/learn'); // Переход на страницу обучения
-//   };
-
-//   return (
-//     <div className="main-screen">
-//       <h1>Добро пожаловать на страницу обучения </h1>
-//       <p>Тут ты найдешь персональный план обученияи многое другое</p>
-
-//       <LearningProgress/>
-//       {/* <button onClick={goToLearn}>Перейти к обучению</button>
-//       <p>Тут ты найдешь персональный план обучения</p> */}
-//     </div>
-//   );
-// }
-
-// export default MainScreen;
-import React, { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useContext, useEffect } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 import LearningProgress from './LearningProgress';
 import { AuthContext } from './utils/AuthContext'; // Импортируем контекст аутентификации
-
+import './learnStyles.css'
 function MainScreen() {
   const navigate = useNavigate();
   const { user } = useContext(AuthContext); // Получаем пользователя из контекста аутентификации
@@ -36,14 +12,27 @@ function MainScreen() {
   const goToLearn = () => {
     navigate('/learn');
   };
+  const { isAdmin } = useContext(AuthContext); // Получаем значение isAdmin из контекста аутентификации
 
+   useEffect(() => {
+    // Проверяем, является ли текущий пользователь администратором
+    console.log('isAdmin:', isAdmin);
+  }, [isAdmin]); // Вызываем useEffect при изменении значения isAdmin
   // Проверяем, авторизован ли пользователь, и отображаем MainScreen только если пользователь авторизован
   return (
     <div className="main-screen">
+      {isAdmin && ( // Условно отображаем ссылку на админ-панель только если пользователь администратор // className="home-link"
+       <button className='butAdmin'>
+         <Link to='/admPanel' className='textBut'> 
+        
+        Админ панель
+      </Link>
+       </button>
+      )}
       {user ? ( // Проверяем, есть ли пользователь
         <>
-          <h1>Добро пожаловать на страницу обучения</h1>
-          <p>Тут ты найдешь персональный план обучения и многое другое</p>
+          <h1 className='textMain'>Добро пожаловать на страницу обучения</h1>
+          <p className='textMain'>Тут ты найдешь персональный план обучения и многое другое.</p>
           <LearningProgress />
           {/* <button onClick={goToLearn}>Перейти к обучению</button> */}
         </>

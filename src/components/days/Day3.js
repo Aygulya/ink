@@ -11,6 +11,14 @@ import img9 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-000
 import img10 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0004.jpg'
 import img11 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0005.jpg'
 import img12 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0006.jpg'
+import imge1 from '../assets/image/newPl/1.png'
+import imge2 from '../assets/image/newPl/2.png'
+import imge3 from '../assets/image/newPl/3.png'
+import imge4 from '../assets/image/newPl/4.png'
+import imge5 from '../assets/image/newPl/5.png'
+import imge6 from '../assets/image/newPl/6.png'
+// import imge7 from '../assets/image/newPl/7.png'
+// import imge8 from '../assets/image/newPl/8.png'
 import "./Day.css"
 const Day3 = () =>{
 
@@ -31,6 +39,17 @@ const Day3 = () =>{
                 <img src={img10}/>
                 <img src={img11}/>
                 <img src={img12}/>
+            </p>
+            <h3>Просроченный депозит</h3>
+            <p className='textDay8'>
+                <img src={imge1}/>
+                <img src={imge2}/>
+                <img src={imge3}/>
+                <img src={imge4}/>
+                <img src={imge5}/>
+                <img src={imge6}/>
+                {/* <img src={imge7}/>
+                <img src={imge8}/> */}
             </p>
         </div>
     )

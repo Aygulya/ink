@@ -5,8 +5,9 @@ import img3 from '../assets/image/8.3.png'
 import img4 from '../assets/image/8.4.png'
 import img5 from '../assets/image/8.5.png'
 import img6 from '../assets/image/8.6.png'
-
+import vid from '../assets/image/vidy-1.png'
 import img from '../assets/image/8.png'
+import chatD from '../assets/image/chatDrop.jpg'
 import "./Day.css"
 const Day8 = () =>{
 
@@ -39,7 +40,10 @@ const Day8 = () =>{
 Сумма ошибки:<br/>
 Промокод.<br/>
                         </p>
-
+<p className='textDay8'>
+  <img src={vid}/>
+  <img src={chatD}/>
+</p>
         </div>
     )
 }

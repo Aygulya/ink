@@ -35,7 +35,7 @@ const RegisterComponent = () => {
         const { user } = await createUserWithEmailAndPassword(firebaseAuth, email, password);
         if (user && !user.disabled) {
           await register(user);
-          navigate('/mainScreen');
+          navigate('/ozhidaem');
         } else {
           // Если пользователь заблокирован или удален, отображаем сообщение об ошибке
           setErrorMessage('Your account is blocked or deleted.');
@@ -60,11 +60,11 @@ const RegisterComponent = () => {
     };
     return (
       <div className="form-container">
-        <h2>REGISTRATION</h2>
+        {/* <h2>REGISTRATION</h2> */}
         <input type="text" placeholder="Username" value={displayName} onChange={(e) => setDisplayName(e.target.value)} className='input-form'/>
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} className='input-form'/>
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} className='input-form'/>
-        <button onClick={handleRegister} className='but-home'>Register</button>
+        <button onClick={handleRegister} className='but-login'>зарегистрироваться</button>
         {/* You can render user details here if needed
         {user && (
           <div>
@@ -77,7 +77,7 @@ const RegisterComponent = () => {
           <div className="modal">
             <div className="modal-content">
               <h1>{errorMessage}</h1>
-              <button onClick={handleCloseModal} className='but-home'>Close</button>
+              <button onClick={handleCloseModal} className='but-login'>Close</button>
             </div>
           </div>
         )}

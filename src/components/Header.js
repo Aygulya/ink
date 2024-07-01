@@ -82,9 +82,9 @@ import './Header.css';
 import { AuthContext } from './utils/AuthContext'; // Импортируем контекст аутентификации
 
 function Header({ userEmail }) {
-  const { isAdmin } = useContext(AuthContext); // Получаем значение isAdmin из контекста аутентификации
+  // const { isAdmin } = useContext(AuthContext); // Получаем значение isAdmin из контекста аутентификации
 
-  // useEffect(() => {
+  //  useEffect(() => {
   //   // Проверяем, является ли текущий пользователь администратором
   //   console.log('isAdmin:', isAdmin);
   // }, [isAdmin]); // Вызываем useEffect при изменении значения isAdmin
@@ -95,11 +95,11 @@ function Header({ userEmail }) {
         <FontAwesomeIcon icon={faHome} />
       </Link>
       
-      {/* {isAdmin && ( // Условно отображаем ссылку на админ-панель только если пользователь администратор */}
+      {/* {isAdmin && ( // Условно отображаем ссылку на админ-панель только если пользователь администратор
         <Link to='/admPanel' className="home-link">
           Админ панель
         </Link>
-      {/* )} */}
+      )} */}
       <div className="user-email">{userEmail}</div>
     </div>
   );
