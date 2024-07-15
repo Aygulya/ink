@@ -28,7 +28,7 @@ const Day7 = () =>{
                 <img src={chat6} />
                 <img src={block}/>
             </p>
-            <ButtonNP/>
+            <ButtonNP currentDay={7}/>
         </div>
     )
 }

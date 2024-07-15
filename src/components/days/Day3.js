@@ -53,7 +53,7 @@ const Day3 = () =>{
                 {/* <img src={imge7}/>
                 <img src={imge8}/> */}
             </p>
-            <ButtonNP/>
+            <ButtonNP currentDay={3}/>
         </div>
     )
 }

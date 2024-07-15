@@ -2,23 +2,23 @@
 import React, { useContext, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import LearningProgress from './LearningProgress';
-import { AuthContext } from './utils/AuthContext'; // Импортируем контекст аутентификации
+//import { AuthContext } from './utils/AuthContext'; // Импортируем контекст аутентификации
 import './learnStyles.css'
 import logo from '../components/assets/image/logo.png';
 function MainScreen() {
   const navigate = useNavigate();
-  const { user } = useContext(AuthContext); // Получаем пользователя из контекста аутентификации
+  // const { user } = useContext(AuthContext); // Получаем пользователя из контекста аутентификации
 
   // Переход на страницу обучения
   const goToLearn = () => {
     navigate('/learn');
   };
-  const { isAdmin } = useContext(AuthContext); // Получаем значение isAdmin из контекста аутентификации
+  // const { isAdmin } = useContext(AuthContext); // Получаем значение isAdmin из контекста аутентификации
 
-   useEffect(() => {
-    // Проверяем, является ли текущий пользователь администратором
-    console.log('isAdmin:', isAdmin);
-  }, [isAdmin]); // Вызываем useEffect при изменении значения isAdmin
+  //  useEffect(() => {
+  //   // Проверяем, является ли текущий пользователь администратором
+  //   console.log('isAdmin:', isAdmin);
+  // }, [isAdmin]); // Вызываем useEffect при изменении значения isAdmin
   // Проверяем, авторизован ли пользователь, и отображаем MainScreen только если пользователь авторизован
   return (
     <div className='first'>

@@ -10,7 +10,7 @@ import ButtonNP from '../buttonNP'
 const Day10 = () =>{
 
     return(
-        <div>
+        <div className= "allDay">
            <p className='textDay'>
             тут будет ссылка на тест
            </p>
@@ -38,7 +38,7 @@ const Day10 = () =>{
             <p className='textDay8'>
                 <img src={day105}/>
             </p>
-            <ButtonNP/>
+            <ButtonNP currentDay={10}/>
         </div>
     )
 }

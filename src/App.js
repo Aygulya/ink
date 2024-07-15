@@ -24,14 +24,14 @@ import LoginComponent from './components/login/LogIn';
 import Dostup from './components/Dostup';
 import DeleteUser from './components/login/DeleteUser';
 import UserManagement from './components/UserManagment';
-import { AuthProvider } from './components/utils/AuthContext';
+// import { AuthProvider } from './components/utils/AuthContext';
 import Ozhidaem from './components/Ozhidaem';
 import Prosmotr from './components/ProsmDni';
 import BookAnimation from './components/days/BookAnimation';
 
 function App() {
   return (
-    <AuthProvider>
+    // <AuthProvider>
     <div className="App">
     <Routes>
           <Route path='/' element={<FirstPage/>}/>
@@ -49,23 +49,24 @@ function App() {
           {/* {/* <Route path='managment' element={<UserManagement/>}/> */}
        <Route path="/admPanel" element = {<AdmPanel/>}/>
       //  <Route path='/admPanel/dostup' element = {<Dostup/>}/> 
-       <Route path="/prosmotr/day1" element = {<Day1/>}/>
-       <Route path="/prosmotr/day2" element = {<Day2/>}/>
-       <Route path="/prosmotr/day3" element = {<Day3/>}/>
-       <Route path="/prosmotr/day4" element = {<Day4/>}/>
-       <Route path="/prosmotr/day5" element = {<Day5/>}/>
-       <Route path="/prosmotr/day6" element = {<Day6/>}/>
-       <Route path="/prosmotr/day7" element = {<Day7/>}/>
-       <Route path="/prosmotr/day8" element = {<Day8/>}/>
-       <Route path="/prosmotr/day9" element = {<Day9/>}/>
-       <Route path="/prosmotr/day10" element = {<Day10/>}/>
-       <Route path='/prosmotr' element={<Prosmotr/>}/>
+      <Route path="/prosmotr" element={<Prosmotr />} />
+      <Route path="/prosmotr/day1" element={<Day1 />} />
+                    <Route path="/prosmotr/day2" element={<Day2 />} />
+                    <Route path="/prosmotr/day3" element={<Day3 />} />
+                    <Route path="/prosmotr/day4" element={<Day4 />} />
+                    <Route path="/prosmotr/day5" element={<Day5 />} />
+                    <Route path="/prosmotr/day6" element={<Day6 />} />
+                    <Route path="/prosmotr/day7" element={<Day7 />} />
+                    <Route path="/prosmotr/day8" element={<Day8 />} />
+                    <Route path="/prosmotr/day9" element={<Day9 />} />
+                    <Route path="/prosmotr/day10" element={<Day10 />} />
+
        <Route path='/book' element={<BookAnimation/>}/>
 
         </Routes>
 
     </div>
-    </AuthProvider>
+    // </AuthProvider>
   );
 }
 

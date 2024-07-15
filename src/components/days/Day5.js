@@ -92,7 +92,7 @@ const Day5 = () =>{
 <p className='textDay8'>
     <img src={orOrBl} alt='Orange & Blue'/>
 </p> */}
-<ButtonNP/>
+<ButtonNP currentDay={5}/>
         </div>
     )
 }

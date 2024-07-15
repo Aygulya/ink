@@ -185,7 +185,7 @@ XXX<br/>
             <span className='bold'>5. ДРОП В ПРОСТОЕ(Мы не занимаемся решением этого тикета, информация для ознакомления) </span>
            <img src={drop}/>
             </p>
-            <ButtonNP/>
+            <ButtonNP currentDay={4}/>
         </div>
     )
 }

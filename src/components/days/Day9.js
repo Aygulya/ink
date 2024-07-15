@@ -66,7 +66,7 @@ const Day9 = () =>{
 <Link to='https://docs.google.com/spreadsheets/d/12sSKbMnPkdBMl82fjsbMGUAYihEex_bq3G-BBw4pLkE/edit?usp=sharing'>
 Таблица сверки расхождения
 </Link>
-<ButtonNP/>
+<ButtonNP currentDay={9}/>
         </div>
     )
 }
