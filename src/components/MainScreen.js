@@ -51,7 +51,7 @@ function MainScreen() {
         <h1>Пожалуйста, войдите или зарегистрируйтесь</h1>
       )} */}
       <Link to='/prosmotr'>
-      <div>Просмотреть все дни</div>
+      <div className='prosmotr'>Просмотреть все дни</div>
       </Link>
 
     </div>

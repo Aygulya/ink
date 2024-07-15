@@ -205,7 +205,7 @@ const FirstPage = () => {
 
       </div>
       <div className='hello'>
-        <Link to='/mainScreen'>
+        <Link to='/mainScreen' className='prosmotr'>
         Далее
         </Link>
         </div>

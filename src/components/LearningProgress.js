@@ -190,7 +190,7 @@ function LearningProgress() {
     const passedDays = totalDays - daysLeft;
 
     const goToLearn = () => {
-        navigate(`/admPanel/day${currentDay}`);
+        navigate(`/prosmotr/day${currentDay}`);
     };
 
     const letters = ['П', 'О', 'З', 'Д', 'Р', 'А', 'В', 'Л', 'Я', 'Ю'].map((letter, index) => (index < currentDay ? letter : '_'));
