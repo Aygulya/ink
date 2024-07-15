@@ -26,6 +26,7 @@ import DeleteUser from './components/login/DeleteUser';
 import UserManagement from './components/UserManagment';
 import { AuthProvider } from './components/utils/AuthContext';
 import Ozhidaem from './components/Ozhidaem';
+import Prosmotr from './components/ProsmDni';
 
 function App() {
   return (
@@ -37,26 +38,27 @@ function App() {
        {/* <Header />  */}
 
         <Routes>
-          <Route path='ozhidaem' element={<Ozhidaem/>}/>
+          {/* <Route path='ozhidaem' element={<Ozhidaem/>}/>
           <Route path='registration' element={<RegisterComponent/>}/>
-          <Route path='login' element={<LoginComponent/>}/>
+          <Route path='login' element={<LoginComponent/>}/> */}
           
           <Route path="/mainScreen" element={<MainScreen />} /> {/* Removed element prop */}
           <Route path="/learn" element={<LearningModule />} /> {/* Removed element prop */}
           <Route path="/test" element={<TestModule />} /> {/* Removed element prop */}
-          <Route path='managment' element={<UserManagement/>}/>
+          {/* {/* <Route path='managment' element={<UserManagement/>}/> */}
        <Route path="/admPanel" element = {<AdmPanel/>}/>
-       <Route path='/admPanel/dostup' element = {<Dostup/>}/>
-       <Route path="/admPanel/day1" element = {<Day1/>}/>
-       <Route path="/admPanel/day2" element = {<Day2/>}/>
-       <Route path="/admPanel/day3" element = {<Day3/>}/>
-       <Route path="/admPanel/day4" element = {<Day4/>}/>
-       <Route path="/admPanel/day5" element = {<Day5/>}/>
-       <Route path="/admPanel/day6" element = {<Day6/>}/>
-       <Route path="/admPanel/day7" element = {<Day7/>}/>
-       <Route path="/admPanel/day8" element = {<Day8/>}/>
-       <Route path="/admPanel/day9" element = {<Day9/>}/>
-       <Route path="/admPanel/day10" element = {<Day10/>}/>
+      //  <Route path='/admPanel/dostup' element = {<Dostup/>}/> 
+       <Route path="/prosmotr/day1" element = {<Day1/>}/>
+       <Route path="/prosmotr/day2" element = {<Day2/>}/>
+       <Route path="/prosmotr/day3" element = {<Day3/>}/>
+       <Route path="/prosmotr/day4" element = {<Day4/>}/>
+       <Route path="/prosmotr/day5" element = {<Day5/>}/>
+       <Route path="/prosmotr/day6" element = {<Day6/>}/>
+       <Route path="/prosmotr/day7" element = {<Day7/>}/>
+       <Route path="/prosmotr/day8" element = {<Day8/>}/>
+       <Route path="/prosmotr/day9" element = {<Day9/>}/>
+       <Route path="/prosmotr/day10" element = {<Day10/>}/>
+       <Route path='/prosmotr' element={<Prosmotr/>}/>
 
         </Routes>
 

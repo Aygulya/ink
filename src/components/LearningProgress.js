@@ -175,7 +175,7 @@ import './learnStyles.css';
 import { useNavigate, Link } from 'react-router-dom';
 
 function getCurrentDay() {
-    const startDate = new Date('2024-06-30');
+    const startDate = new Date('2024-07-16');
     const today = new Date();
     const daysPassed = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
     const weekendsPassed = Math.floor((daysPassed + startDate.getDay()) / 7) * 2;
@@ -193,7 +193,7 @@ function LearningProgress() {
         navigate(`/admPanel/day${currentDay}`);
     };
 
-    const letters = ['D', 'R', 'O', 'P', 'O', 'M', 'A', 'N', 'I', 'A'].map((letter, index) => (index < currentDay ? letter : '_'));
+    const letters = ['П', 'О', 'З', 'Д', 'Р', 'А', 'В', 'Л', 'Я', 'Ю'].map((letter, index) => (index < currentDay ? letter : '_'));
 
     return (
         <>

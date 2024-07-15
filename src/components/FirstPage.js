@@ -159,6 +159,7 @@
 // export default FirstPage;
 // src/FirstPage.js
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import './learnStyles.css';
 import './animationText.css'
@@ -191,7 +192,7 @@ const FirstPage = () => {
        <p className='firstPay'>PaysPro</p> 
         </div>
         <div className="right">
-        <button onClick={toggleSidebar} className="sidebar-button">☰</button>
+        {/* <button onClick={toggleSidebar} className="sidebar-button">☰</button> */}
         </div>
       </div>
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
@@ -203,7 +204,11 @@ const FirstPage = () => {
         </div>
 
       </div>
-
+      <div className='hello'>
+        <Link to='/mainScreen'>
+        Далее
+        </Link>
+        </div>
     </div>
   );
 }

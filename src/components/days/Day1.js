@@ -8,7 +8,7 @@ const Day1 = () =>{
     return(
         <div className= "allDay">
             
-         <h1> Вступление </h1>  
+         <h1 className='h'> Вступление </h1>  
 <p className='textDay'>В 2015 году небольшая команда разработчиков начала работу над проектом. 
 <span className='bold'> 30 августа 2017</span> года был выпущен первый релиз основного продукта и именно эту дату
 мы считаем Днем Рождения Компании <span className='bold'>«Inktech»</span>. Сегодня наш продукт имеет более 2
@@ -83,10 +83,11 @@ const Day1 = () =>{
 сотрудники TaC) 
     </li>
 </ul>
-<p className='textDay8'>
+<div className='textDay8'>
     <BookAnimation/>
-</p>
-<h3>Иерархия</h3>
+</div>
+<div className='otstup'> <h3 className='h'>Иерархия</h3></div>
+
 <p className='textDay8'>
 <img src={ierarhia} alt="Иерархия" />
 </p>

@@ -5,6 +5,7 @@
     border-radius: 25px;
     margin: 5%;
 }
+
 .allDay{
     margin: 0 30px;
 }
@@ -12,7 +13,12 @@
     text-indent: 20px;
     text-align: justify;
 }
-
+.h{
+    text-align: center;
+}
+.otstup{
+    margin-top: 150px;
+}
 .textDay, .textDay8 img {
     max-width: 100%; /* Сделает изображение адаптивным и не позволит ему быть больше родительского блока */
     height: auto; /* Поддержит соотношение сторон изображения */
