@@ -84,6 +84,7 @@ const Day1 = () =>{
     </li>
 </ul>
 <div className='textDay8'>
+
     <BookAnimation/>
 </div>
 <div className='otstup'> <h3 className='h'>Иерархия</h3></div>

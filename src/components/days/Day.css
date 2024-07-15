@@ -1,6 +1,6 @@
 .day{
     width: 20%;
-    /* height: 400px; */
+    height: 400px;
     border: 2px solid black;
     border-radius: 25px;
     margin: 5%;
@@ -17,7 +17,7 @@
     text-align: center;
 }
 .otstup{
-    margin-top: 150px;
+    margin-left: 15px;
 }
 .textDay, .textDay8 img {
     max-width: 100%; /* Сделает изображение адаптивным и не позволит ему быть больше родительского блока */
@@ -37,7 +37,7 @@
 .bookContainer {
     position: relative; /* Сделаем этот контейнер относительно позиционированным */
     width: 500px;
-    height: auto; /* Можно использовать фиксированную высоту, если это нужно */
+    height: 600px; /* Можно использовать фиксированную высоту, если это нужно */
 }
 
 .bookContainer img {
@@ -45,6 +45,7 @@
     /* top: 0;
     left: 10; */
     /* margin:50px 0; */
+    height: 600px;
     opacity: 0; /* Начнем с нулевой прозрачности */
     transition: opacity 0.5s ease; /* Добавим плавный переход для анимации появления */
 }
@@ -60,10 +61,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    margin:50px;
+    align-items: center;
 }
 .prev, .next{
-    height: 500px;
-    width: 200px;
+    height: 20px;
     border: none;
     background: none;
     margin:50px;

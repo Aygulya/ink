@@ -27,6 +27,7 @@ import UserManagement from './components/UserManagment';
 import { AuthProvider } from './components/utils/AuthContext';
 import Ozhidaem from './components/Ozhidaem';
 import Prosmotr from './components/ProsmDni';
+import BookAnimation from './components/days/BookAnimation';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
        <Route path="/prosmotr/day9" element = {<Day9/>}/>
        <Route path="/prosmotr/day10" element = {<Day10/>}/>
        <Route path='/prosmotr' element={<Prosmotr/>}/>
+       <Route path='/book' element={<BookAnimation/>}/>
 
         </Routes>
 
