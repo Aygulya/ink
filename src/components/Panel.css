@@ -19,6 +19,5 @@
   .days{
     display: flex;
     flex-wrap: wrap;
-    max-width: 75%;
     margin:40px
   }
