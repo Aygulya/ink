@@ -12,8 +12,9 @@ import img7 from '../assets/image/4.png'
 import l1 from '../assets/image/logic1.jpg'
 import l2 from '../assets/image/logic2.jpg'
 import l3 from '../assets/image/logic3.jpg'
+import day3 from '../assets/image/day3.png'
 import "./Day.css"
-
+import ButtonNP from '../buttonNP'
 const Day2 = () => {
     return (
         <div className="allDay">
@@ -25,6 +26,7 @@ const Day2 = () => {
             <h3>ПУТЬ СОЗДАНИЯ ЗАЯВКИ</h3>
             <p className='textDay8'>
             <img src={img2} alt="Путь создания заявки" />
+            <img src={day3}/>
             </p>
 
             <h3>Статусы инвойсов</h3>
@@ -158,6 +160,7 @@ const Day2 = () => {
        <img src={l2}/>
        <img src={l3}/>
        </p>
+       <ButtonNP/>
         </div>
     )
 }

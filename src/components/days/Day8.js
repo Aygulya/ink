@@ -8,7 +8,14 @@ import img6 from '../assets/image/8.6.png'
 import vid from '../assets/image/vidy-1.png'
 import img from '../assets/image/8.png'
 import chatD from '../assets/image/chatDrop.jpg'
+import day81 from '../assets/image/day81.png'
+import day82 from '../assets/image/day82.png'
+import day83 from '../assets/image/day83.png'
+import day84 from '../assets/image/day84.png'
+import day85 from '../assets/image/day85.png'
+import day86 from '../assets/image/day86.png'
 import "./Day.css"
+import ButtonNP from '../buttonNP'
 const Day8 = () =>{
 
     return(
@@ -44,6 +51,17 @@ const Day8 = () =>{
   <img src={vid}/>
   <img src={chatD}/>
 </p>
+
+<p className='textDay8'>
+<img src={day81}/>
+<img src={day82}/>
+<img src={day83}/>
+<img src={day84}/>
+<img src={day85}/>
+<img src={day86}/>
+
+</p>
+<ButtonNP/>
         </div>
     )
 }

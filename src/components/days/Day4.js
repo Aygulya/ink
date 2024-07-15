@@ -12,8 +12,8 @@ import img10 from "../assets/image/tikets/10.png"
 import img11 from "../assets/image/tikets/11.png"
 import img12 from "../assets/image/tikets/12.png"
 import img13 from "../assets/image/tikets/13.png"
-
-
+import drop from '../assets/image/drop.jpg'
+import ButtonNP from '../buttonNP'
 import "./Day.css"
 const Day4 = () =>{
 
@@ -181,6 +181,11 @@ XXX<br/>
                 <img src={img12}/>
                 <img src={img13}/>
             </p>
+            <p className='textDay8'>
+            <span className='bold'>5. ДРОП В ПРОСТОЕ(Мы не занимаемся решением этого тикета, информация для ознакомления) </span>
+           <img src={drop}/>
+            </p>
+            <ButtonNP/>
         </div>
     )
 }

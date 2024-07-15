@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import "./Day.css"
 import banki from '../assets/image/banki1.png'
 import banki1 from '../assets/image/banki-2.png'
+import ButtonNP from '../buttonNP'
 const Day9 = () =>{
 
     return(
@@ -65,6 +66,7 @@ const Day9 = () =>{
 <Link to='https://docs.google.com/spreadsheets/d/12sSKbMnPkdBMl82fjsbMGUAYihEex_bq3G-BBw4pLkE/edit?usp=sharing'>
 Таблица сверки расхождения
 </Link>
+<ButtonNP/>
         </div>
     )
 }

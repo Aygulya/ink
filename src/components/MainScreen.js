@@ -59,7 +59,7 @@ function MainScreen() {
       <a href='https://docs.google.com/spreadsheets/d/1WsBtHmf-RU7VViHHWowg1lwDG3chyrUF4q6L3KO7u88/edit?gid=326229264#gid=326229264'  target="_blank" rel="noopener noreferrer">
       <button className='butGoToLearn prosmotr letters'>Текучка</button>
       </a>
-      <a href='https://docs.google.com/spreadsheets/d/1WsBtHmf-RU7VViHHWowg1lwDG3chyrUF4q6L3KO7u88/edit?gid=326229264#gid=326229264'  target="_blank" rel="noopener noreferrer">
+      <a href='https://drive.google.com/drive/folders/1IP2G_JW3wSL7aUAUGFqErWySGDOSAZHY'  target="_blank" rel="noopener noreferrer">
       <button className='butGoToLearn prosmotr letters'>База чеков не ФШ + Видеоуроки</button>
       </a>
       <a href='https://docs.google.com/spreadsheets/d/12sSKbMnPkdBMl82fjsbMGUAYihEex_bq3G-BBw4pLkE/edit?gid=1941705862#gid=1941705862'  target="_blank" rel="noopener noreferrer">

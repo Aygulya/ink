@@ -3,6 +3,7 @@ import './Day.css'
 import ierarhia from '../assets/image/ierarhia.jpg'
 import chats from '../assets/image/chats.png'
 import BookAnimation from './BookAnimation'
+import ButtonNP from '../buttonNP'
 const Day1 = () =>{
 
     return(
@@ -136,7 +137,7 @@ const Day1 = () =>{
 <p className='textDay8'>
     <img src={chats} alt='Chats'/>
 </p>
-
+<ButtonNP/>
 
         </div>
     )

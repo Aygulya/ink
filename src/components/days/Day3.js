@@ -17,8 +17,10 @@ import imge3 from '../assets/image/newPl/3.png'
 import imge4 from '../assets/image/newPl/4.png'
 import imge5 from '../assets/image/newPl/5.png'
 import imge6 from '../assets/image/newPl/6.png'
+import day3 from '../assets/image/day3.png'
 // import imge7 from '../assets/image/newPl/7.png'
 // import imge8 from '../assets/image/newPl/8.png'
+import ButtonNP from '../buttonNP'
 import "./Day.css"
 const Day3 = () =>{
 
@@ -51,6 +53,7 @@ const Day3 = () =>{
                 {/* <img src={imge7}/>
                 <img src={imge8}/> */}
             </p>
+            <ButtonNP/>
         </div>
     )
 }

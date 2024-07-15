@@ -9,12 +9,15 @@ import chat4 from '../assets/image/chat-4.png'
 import chat5 from '../assets/image/chat-5.png'
 import chat6 from '../assets/image/chat-6.png'
 import block from '../assets/image/block.jpg'
+import day7 from '../assets/image/day7.jpg'
+import ButtonNP from '../buttonNP'
 const Day7 = () =>{
 
     return(
         <div className= "allDay">
         
             <p className='textDay8'>
+                <img src={day7}/>
                 <img src={img1} alt='Перенос баланса'/>
                 <img src={img2} alt='Финальный вывод'/>
                 <img src={chat1}/>
@@ -25,6 +28,7 @@ const Day7 = () =>{
                 <img src={chat6} />
                 <img src={block}/>
             </p>
+            <ButtonNP/>
         </div>
     )
 }

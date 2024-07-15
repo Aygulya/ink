@@ -5,6 +5,7 @@ import spisok from '../assets/image/spisokUrovni.jpg'
 import img1 from '../assets/image/day5.png'
 import img2 from '../assets/image/day5.2.png'
 import orOrBl from '../assets/image/orange.png'
+import ButtonNP from '../buttonNP'
 const Day6 = () =>{
 
     return(
@@ -244,6 +245,7 @@ const Day6 = () =>{
 <p className='textDay8'>
     <img src={orOrBl} alt='Orange & Blue'/>
 </p>
+<ButtonNP/>
         </div>
     )
 }

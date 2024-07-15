@@ -194,6 +194,16 @@ body {
     font-size: 30px;
     margin: 30px;
   }
+  .butNP{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .buttonNP{
+    border: none;
+    background: none;
+    color: #100f59;
+  }
   .textMain{
     color:white;
     font-size: 36px;
