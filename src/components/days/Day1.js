@@ -99,13 +99,13 @@ const Day1 = () =>{
 мерчант)
 </p>
 <p className='textDay'>
-<span className='bold'> Дропомания </span>- название приложения, чат-бота и сайта. (Знает дроп и
+<span className='bold'>Pays Pro </span>- название приложения, чат-бота и сайта. (Знает агент и
 мы, не знает мерчант)
 </p><p className='textDay'>
-<span className='bold'> Дроп </span>- держатель карт, сотрудник дропомании. (Знаем только мы, к ним
-обращаемся как к сотрудникам, с мерчантом используем слово - агент)
+<span className='bold'> Merchant </span>- партнёр, на котором мы предоставлены как платёжная
+система.
 </p><p className='textDay'>
-<span className='bold'> Агент </span>- используем этот термин в общении с мерчантом.
+<span className='bold'> Агент </span>- сотрудник проекта PaysPro, держатель карты/аккаунта.
 </p><p className='textDay'>
 <span className='bold'> Сотрудник </span>- используем при обращении к дропу в чате поддержки.
 </p><p className='textDay'>
@@ -123,7 +123,27 @@ const Day1 = () =>{
 отправление средств).
 </p><p className='textDay'>
 <span className='bold'> Инвойс </span>- заявка.
-</p><p className='textDay'>
+</p>
+<p className='textDay'>
+<span className='bold'> Битый инвойс </span>- заявка у которой не сформировался order id.
+</p>
+<p className='textDay'>
+<span className='bold'> Order ID </span>- идентификатор конкретной заявки в PaysPro
+</p>
+    <p className='textDay'>
+<span className='bold'> Invoice ID </span>-  идентификатор конкретной заявки в TaC.
+</p>
+    <p className='textDay'>
+<span className='bold'> User ID </span>- идентификатор конкретного юзера в ТaC
+</p>
+    <p className='textDay'>
+<span className='bold'> Drop ID </span>- идентификатор конкретного агента в PaysPro
+</p>
+    <p className='textDay'>
+<span className='bold'> Ticket </span>- это инвойс, требующий внимания, так как система сообщает,
+что что-то пошло не так.
+</p>
+<p className='textDay'>
 <span className='bold'> Чат «синей» вавады </span>- рабочий чат в котором оператор обрабатывает
 обращение от мерчант о просроченном депозите.
 </p><p className='textDay'>
@@ -132,6 +152,9 @@ const Day1 = () =>{
 пейауту, также этот чат используется оператором для передачи
 информации по удержанию средств ошибочно зачисленных дропом или
 другим сотрудником.
+</p>
+<p className='textDay'>
+<span className='bold'> Чат Account Manager </span>- чат для взаимодействия с партнёрским отделом.
 </p>
 <h3>Рабочие чаты</h3>
 <p className='textDay8'>
