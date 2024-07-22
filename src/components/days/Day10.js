@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Day.css"
-import frame from '../assets/image/Frame 12.png'
+import frame from '../assets/image/Frame 12.jpg'
 import day101 from '../assets/image/day101.png'
 import day102 from '../assets/image/day102.png'
 import day103 from '../assets/image/day103.png'
@@ -13,15 +13,8 @@ const Day10 = () =>{
         <div className= "allDay">
            <p className='textDay'>
             тут будет ссылка на тест
-           </p>
-            <p className='textDay8'>
-                <img src={frame}/>
-            </p>
+
             <h3> И ещё немного полезной информации</h3>
-            <h1>Важные контакты</h1>
-            <p className='textDay8'>
-                <img src={day101}/>
-            </p>
             <h1>Горячие клавиши</h1>
             <p className='textDay8'>
                 <img src={day102}/>
@@ -37,6 +30,10 @@ const Day10 = () =>{
             <h1>Рабочее пространство</h1>
             <p className='textDay8'>
                 <img src={day105}/>
+            </p>
+            <p className='textDay8'>
+                <img src={frame}/>
+            </p>
             </p>
             <ButtonNP currentDay={10}/>
         </div>
