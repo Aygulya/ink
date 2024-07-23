@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Day.css"
-import frame from '../assets/image/Frame 12.jpg'
+import frame from '../assets/image/frame.png'
 import day101 from '../assets/image/day101.png'
 import day102 from '../assets/image/day102.png'
 import day103 from '../assets/image/day103.png'

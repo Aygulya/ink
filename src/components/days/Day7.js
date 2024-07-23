@@ -5,6 +5,7 @@ import img2 from '../assets/image/finVyvod.png'
 import chat1 from '../assets/image/chat-1.png'
 import chat2 from '../assets/image/chat-2.png'
 import chat3 from '../assets/image/chat-3.png'
+import chat31 from '../assets/image/rabChats.png'
 import chat4 from '../assets/image/chat-4.png'
 import chat5 from '../assets/image/chat-5.png'
 import chat6 from '../assets/image/chat-6.png'
@@ -23,6 +24,7 @@ const Day7 = () =>{
                 <img src={chat1}/>
                 <img src={chat2}/>
                 <img src={chat3}/>
+                <img src={chat31}/>
                 <img src={chat4} />
                 <img src={chat5} />
                 <img src={chat6} />
