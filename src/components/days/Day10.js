@@ -13,7 +13,7 @@ const Day10 = () =>{
         <div className= "allDay">
            <p className='textDay'>
            <a href='https://forms.gle/EuJxt6A8RrBkqNhE6' target="_blank" rel="noopener noreferrer">
-           тест</a>
+           Финальный тест</a>
 
             <h3> И ещё немного полезной информации</h3>
             <h1>Горячие клавиши</h1>
