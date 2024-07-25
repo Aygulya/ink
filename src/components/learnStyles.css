@@ -182,8 +182,11 @@ body {
     display: flex;
     margin: 10px;
     width: 250px;
+    height: 30px;
     background-color: #100f59;
     border-radius: 5px;
+    align-content: center;
+    align-items: center;
   }
   
   .but-home {
@@ -218,4 +221,16 @@ body {
   }
   .textBut{
     font-size: 24px;
+  }
+  .ssyl{
+    display: flex;
+    margin: 10px;
+    width: 350px;
+    height: 30px;
+    background-color: #100f59;
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }

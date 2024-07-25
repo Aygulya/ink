@@ -1,24 +1,24 @@
 import React from 'react'
-import img1 from '../assets/image/p/0001.jpg'
-import img2 from '../assets/image/p/0002.jpg'
-import img3 from '../assets/image/p/0003.jpg'
-import img4 from '../assets/image/p/0004.jpg'
-import img5 from '../assets/image/p/0005.jpg'
-import img6 from '../assets/image/p/0006.jpg'
-import img7 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0001.jpg'
-import img8 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0002.jpg'
-import img9 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0003.jpg'
-import img10 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0004.jpg'
-import img11 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0005.jpg'
-import img12 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0006.jpg'
-import imge1 from '../assets/image/newPl/1.png'
-import imge2 from '../assets/image/newPl/2.png'
-import imge3 from '../assets/image/newPl/3.png'
-import imge4 from '../assets/image/newPl/4.png'
-import imge5 from '../assets/image/newPl/5.png'
-import imge6 from '../assets/image/newPl/6.png'
-import imge61 from '../assets/image/newPl/61.png'
-import day3 from '../assets/image/day3.png'
+import img1 from "../assets/day2/1.jpg"
+import img2 from "../assets/day2/2.jpg"
+import img3 from "../assets/day2/3.jpg"
+import img4 from "../assets/day2/4.jpg"
+import img5 from "../assets/day2/5.jpg"
+import img6 from "../assets/day2/6.jpg"
+import img7 from "../assets/day2/7.jpg"
+import img8 from "../assets/day2/8.jpg"
+import img9 from "../assets/day2/9.jpg"
+import img10 from "../assets/day2/10.mp4"
+import img11 from "../assets/day2/11.mp4"
+import img12 from "../assets/day2/12.mp4"
+import img13 from "../assets/day2/13.mp4"
+import img14 from "../assets/day2/14.jpg"
+import img15 from "../assets/day2/15.jpg"
+import img16 from "../assets/day2/16.jpg"
+import img17 from "../assets/day2/17.jpg"
+import img18 from "../assets/day2/18.jpg"
+import img19 from "../assets/day2/19.jpg"
+import img20 from "../assets/day2/20.jpg"
 // import imge7 from '../assets/image/newPl/7.png'
 // import imge8 from '../assets/image/newPl/8.png'
 import ButtonNP from '../buttonNP'
@@ -27,34 +27,70 @@ const Day3 = () =>{
 
     return(
         <div className="allDay">
-           <h3>ФШ СБЕР</h3>
+           <h1>ПРИНЦИП РАБОТЫ С ТИКЕТАМИ</h1>
             <p className='textDay8'>
                 <img src={img1}/>
+                </p>  
+                <h1>КАК ПОДДЕРЖКА РАБОТАЕТ С ТИКЕТАМИ?</h1>   
+                <p className='textDay8'>
                 <img src={img2}/>
                 <img src={img3}/>
                 <img src={img4}/>
                 <img src={img5}/>
                 <img src={img6}/>
-                </p>    <h3>ФШ ЧЕКИ ТИНЬК И АЛЬФА</h3>        <p className='textDay8'>
                 <img src={img7}/>
                 <img src={img8}/>
                 <img src={img9}/>
+                </p>
+                     {/* <p className='textDay8'>
                 <img src={img10}/>
                 <img src={img11}/>
                 <img src={img12}/>
-            </p>
-            <h3>Просроченный депозит</h3>
+            </p> */}
+            <h1>РАБОЧИЙ КАБИНЕТ ДРОПА</h1>
+            <h2>РЕГИСТРАЦИЯ</h2>
             <p className='textDay8'>
-                <img src={imge1}/>
-                <img src={imge2}/>
-                <img src={imge3}/>
-                <img src={imge4}/>
-                <img src={imge5}/>
-                <img src={imge6}/>
-                <img src={imge61}/>
-                {/* <img src={imge7}/>
-                <img src={imge8}/> */}
+            <video width="600" controls>
+        <source src={img10} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
             </p>
+            <h2>РАБОЧИЙ КАБИНЕТ</h2>
+            <p className='textDay8'>
+            <video width="600" controls>
+        <source src={img11} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+            </p>
+            <h2>ДЕПОЗИТ</h2>
+            <p className='textDay8'>
+            <video width="600" controls>
+        <source src={img12} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+            </p>
+            <h2>ВЫВОД</h2>
+            <p className='textDay8'>
+            <video width="600" controls>
+        <source src={img13} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+            </p>
+            <h2>ЛИМИТЫ</h2>
+            <p className='textDay8'>
+                <img src={img14}/>
+                <img src={img15}/>
+                <img src={img16}/>
+                <img src={img17}/>
+                <img src={img18}/>
+                <img src={img19}/>
+                </p>
+                <h2>ВАЖНО</h2>
+                <h3>Ранги распространяются только на физиков, у команд обычно автоматически стоит 10 ранг.</h3>
+                <p className='textDay8'>
+
+                <img src={img20}/>
+                </p>
             <ButtonNP currentDay={3}/>
         </div>
     )

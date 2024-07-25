@@ -12,6 +12,7 @@ import img7 from '../assets/image/4.png'
 import l1 from '../assets/image/logic1.jpg'
 import l2 from '../assets/image/logic2.jpg'
 import l3 from '../assets/image/logic3.jpg'
+import l4 from '../assets/day1/2.jpg'
 import day3 from '../assets/image/day3.png'
 import "./Day.css"
 import ButtonNP from '../buttonNP'
@@ -26,12 +27,12 @@ const Day2 = () => {
             <h3>ПУТЬ СОЗДАНИЯ ЗАЯВКИ</h3>
             <p className='textDay8'>
             <img src={img2} alt="Путь создания заявки" />
-            <img src={day3}/>
+            {/* <img src={day3}/> */}
             </p>
 
             <h3>Статусы инвойсов</h3>
             <h4>Tass a Coin</h4>
-            <p className="textDay8">
+            <p className="textDay">
           <span className='blue'>Новый </span>- короткий стартовый статус инвойса - идёт
  подбор карты дропа<br/>
  <span className='blue'>Создан </span> - короткий стартовый статус инвойса. Требует
@@ -79,9 +80,9 @@ const Day2 = () => {
                 баланс дропу на сумму оплаченной заявки.
             </p>
             <h3>ПУТЬ ЗАЯВКИ</h3>
-            <p className='textDay8'>
+            {/* <p className='textDay8'>
             <img src={img3}/>
-            </p>
+            </p> */}
             <p className='textDay8'>
             <img src={newWay}/>
             </p>
@@ -96,7 +97,7 @@ const Day2 = () => {
             <img src={img6}/>
             <img src={img7}/>
             </p> */}
-            <Link to="/https://docs.google.com/presentation/d/1UAqsvwk0bVTGitlzcpMsSTM1S-Sn9UAoMS3zK4Qbrmo/edit?usp=sharing">Презинтация - "работа по синей"</Link>
+            {/* <Link to="/https://docs.google.com/presentation/d/1UAqsvwk0bVTGitlzcpMsSTM1S-Sn9UAoMS3zK4Qbrmo/edit?usp=sharing">Презинтация - "работа по синей"</Link> */}
        <h3>СХЕМА РАБОТЫ ПО СИНЕЙ</h3>
        <p className='textDay'>
       <span className='bold'> РАБОТА ПО СИНЕЙ </span>- схема<br/><br/>
@@ -119,9 +120,8 @@ const Day2 = () => {
 ВАЖНО оповещать синюю о тех или иных ситуациях.
 <br/><br/>
 Если что-то не так, например не совпадает карта, или время, или другой
-статус - рассматриваем индивидуально вместе, пока не изучим каждый
-такой кейс, пока не отточим знания.<br/><br/>
-<span className='bold'> ПЕРВОЕ </span>, на что смотрим - это чек и карта получателя в нём.
+статус -  рассматривают индивидуально.<br/><br/>
+{/* <span className='bold'> ПЕРВОЕ </span>, на что смотрим - это чек и карта получателя в нём.
 В нём карта получателя (должна быть наша) и ДЕРЖАТЕЛЬ(если эта
 строка есть в чеке) - должны совпадать с инфой в ДМ.
 Таким образом, мы убеждаемся, что получатель действительно наш
@@ -153,12 +153,13 @@ const Day2 = () => {
 «Оплачен по …» (по соответствующему инвойсу). ГОТОВО.<br/>
 Если <span className='bold'>2 </span>  вариант - значит этот кейс называется «старые реквизиты», и
 мы работаем по ним(далее будут слайды и подробное изучение этого
-кейса).
-       </p>
+кейса).*/}
+       </p> 
        <p className='textDay8'>
-       <img src={l1}/>
+       {/* <img src={l1}/> */}
        <img src={l2}/>
        <img src={l3}/>
+       <img src={l4}/>
        </p>
        <ButtonNP currentDay={2}/>
         </div>

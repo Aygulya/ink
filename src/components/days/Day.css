@@ -1,28 +1,32 @@
 .day{
-    width: 150px;
+    width: 350px;
     height: auto;
     border: 2px solid black;
     border-radius: 25px;
     margin: 5%;
     text-align: center;
+    text-decoration: none;
 }
 
 .allDay{
     margin: 0 30px;
+    text-align: center;
 }
-.textDay, .textDay8{
+.textDay{
     text-indent: 20px;
     text-align: justify;
 }
 .h{
     text-align: center;
+    border-bottom-color: #191970;
 }
 .otstup{
     margin-left: 15px;
 }
-.textDay, .textDay8 img {
+.textDay8 img {
     max-width: 100%; /* Сделает изображение адаптивным и не позволит ему быть больше родительского блока */
     height: auto; /* Поддержит соотношение сторон изображения */
+    text-align: center;
 }
 
 .textListDay{

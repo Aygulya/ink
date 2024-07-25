@@ -53,17 +53,17 @@ function MainScreen() {
           </div>
           <div className='right'>
             <h1 className='prosmotr'>Полезные ссылки</h1>
-            <a href='https://docs.google.com/spreadsheets/d/1Yba9g6JQDEfO7OAUdUNLvJ9Ma9b4Td-H_VGbBGUShy4/edit?usp=sharing'  target="_blank" rel="noopener noreferrer">
-      <button className='butGoToLearn prosmotr letters'>БД для операторов </button>
+            <a href='https://eyeconweb.kaiten.ru/login?redirectPath=%2Fspace%2F377507%2Fcard%2F35166652'  target="_blank" rel="noopener noreferrer">
+      <button className='ssyl'>Кайтен (он же трелло)</button>
       </a>
-      <a href='https://docs.google.com/spreadsheets/d/1WsBtHmf-RU7VViHHWowg1lwDG3chyrUF4q6L3KO7u88/edit?gid=326229264#gid=326229264'  target="_blank" rel="noopener noreferrer">
-      <button className='butGoToLearn prosmotr letters'>Текучка</button>
+      <a href='https://docs.google.com/spreadsheets/d/1avSSVr8VWyZ7_iO643pDiqyNiDWcFfa3MkFIGkimmCw/edit?pli=1&gid=0#gid=0'  target="_blank" rel="noopener noreferrer">
+      <button className='ssyl'>Таблица - подсказка(здесь вы найдете всё обо всём)</button>
       </a>
-      <a href='https://drive.google.com/drive/folders/1IP2G_JW3wSL7aUAUGFqErWySGDOSAZHY'  target="_blank" rel="noopener noreferrer">
-      <button className='butGoToLearn prosmotr letters'>База чеков не ФШ + Видеоуроки</button>
+      <a href='https://docs.google.com/spreadsheets/d/19HQTBjl518R_izriXO_MVYmZ-ZB0tamUHRSZdLzt-nc/edit?gid=0#gid=0'  target="_blank" rel="noopener noreferrer">
+      <button className='ssyl'>Таблица "Депы за карты" </button>
       </a>
-      <a href='https://docs.google.com/spreadsheets/d/12sSKbMnPkdBMl82fjsbMGUAYihEex_bq3G-BBw4pLkE/edit?gid=1941705862#gid=1941705862'  target="_blank" rel="noopener noreferrer">
-      <button className='butGoToLearn prosmotr letters'>Сверка расхождений</button>
+      <a href='https://admin.pays-pro.com/dashboard'  target="_blank" rel="noopener noreferrer">
+      <button className='ssyl'>ДМ</button>
       </a>
           </div>
           </div>
