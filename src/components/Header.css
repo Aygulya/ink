@@ -3,8 +3,26 @@
     background: #100f59;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust the z-index to ensure the header stays on top of other elements */
+    width: 100%;
+    padding: 10px;
 }
 .home-link{
-    margin: 10px;
+    font-size: 40px;
     color: white;
+}
+.rightH{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-link{
+    margin-left: 60px;
 }

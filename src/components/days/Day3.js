@@ -19,13 +19,14 @@ import imge5 from '../assets/image/newPl/5.png'
 import imge6 from '../assets/image/newPl/6.png'
 import imge61 from '../assets/image/newPl/61.png'
 import day3 from '../assets/image/day3.png'
-// import imge7 from '../assets/image/newPl/7.png'
-// import imge8 from '../assets/image/newPl/8.png'
 import ButtonNP from '../buttonNP'
 import "./Day.css"
+import Header from '../Header'
 const Day3 = () =>{
 
     return(
+        <>
+                            <Header currentDay={3} /> 
         <div className="allDay">
            <h3>ФШ СБЕР</h3>
             <p className='textDay8'>
@@ -57,6 +58,7 @@ const Day3 = () =>{
             </p>
             <ButtonNP currentDay={3}/>
         </div>
+        </>
     )
 }
 

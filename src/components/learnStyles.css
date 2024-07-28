@@ -1,221 +1,173 @@
-/* 
-.first{
-    /* background-image: url('/src/components/assets/image/logo.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    background-image: url('/src/components/assets/image/logo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    padding: 200px;
-}
-.progress-bar {
-    width: 500px;
-    background-color: #100f59;
-    border-radius: 5px;
-    height: 20px;
-    margin: 10px;
-  }
-.progress{
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-    width:200px;
-    margin-left: 50px;
-}
-.letters{
-    color:white;
-    margin:2px;
-}
-.butGoToLearn{
-    display:flex;
-    margin: 10px;
-    width: 250px;
-    background-color: #100f59;
-    border-radius: 5px;
-}
-.but-home{
-    border: none;
-    border-radius: 25px;
-    background: none;
-    color:#100f59;
-    font-size: 30px;
-    margin:30px
-    
-}
-.firstPage{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: center;
-    align-items: center;
-}
-.firstLogo{
-    max-width:800px;
-} */ 
 
-/* learnStyles.css */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  .main-screen{
-    text-align: center;
-    background: -webkit-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
-  background: -moz-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
-  background: linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
-  min-height:100vh;
-  }
-  .first {
-    /* display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: auto auto;
-    height: 100vh; */
-    text-align: center;
-    background: -webkit-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
-  background: -moz-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
-  background: linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
-  min-height:100vh;
-  }
-  .prosmotr{
-    color:white;
-  }
-  .centreLR{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    margin: 50px;
-    flex-wrap:wrap;
-  }
-  .sidebar-button {
-    /* grid-column: 1;
-    grid-row: 1; */
-    justify-self: start;
-    align-self: center;
-    margin: 0 40px;
-    border: none;
-    background: none;
-    color: white;
-    font-size: 40px; 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.main-screen{
+  text-align: center;
+  background: -webkit-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
+background: -moz-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
+background: linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
+min-height:100vh;
+}
+.first {
+  text-align: center;
+  background: -webkit-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
+background: -moz-linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
+background: linear-gradient(315deg, rgb(48, 28, 213), rgb(4, 14, 47) 60%);
+min-height:100vh;
+}
+.prosmotr{
+  color:white;
+}
+.centreLR{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  margin: 50px;
+  flex-wrap:wrap;
+}
+.sidebar-button {
+  justify-self: start;
+  align-self: center;
+  margin: 0 40px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 40px; 
 
-  }
-  
-  .sidebar-text {
-    /* grid-column: 1;
-    grid-row: 2; */
-    text-align: center;
-    padding: 10px;
-    margin: 50px;
-    color:white;
-  }
-  .hello{
-    color:white;
-    font-size: 40px;
-  }
-  .image-container {
-    /* grid-column: 2;
-    grid-row: 1 / span 2;
-    display: flex;
-    justify-content: center; */
-    display: flex;
-    margin-left: 50px;
-    margin-right: 30px;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .left{
-    display: flex;
-    align-items: center;
-  }
-  .firstPay{
-    color: white;
-    font-size: 50px;
-  }
-  .firstLogo {
-    max-width: 100px;
-    height: auto;
-  }
-  
-  .firstPage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .progress-bar {
-    width: 500px;
-    background-color: #100f59;
-    border-radius: 5px;
-    height: 20px;
-    margin: 10px;
-  }
-  
-  .progress {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-    width: 200px;
-    margin-left: 50px;
-    color:white
-  }
-  
-  .letters {
-    color: white;
-    margin: 2px;
-  }
-  
-  .butGoToLearn {
-    display: flex;
-    margin: 10px;
-    width: 250px;
-    background-color: #100f59;
-    border-radius: 5px;
-  }
-  
-  .but-home {
-    border: none;
-    border-radius: 25px;
-    background: none;
-    color: #100f59;
-    font-size: 30px;
-    margin: 30px;
-  }
-  .butNP{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-  }
-  .buttonNP{
-    border: none;
-    background: none;
-    color: #100f59;
-  }
-  .textMain{
-    color:white;
-    font-size: 36px;
-  }
-  .butAdmin{
-    width: 250px;
-    height: 50px;
-    border: 1px solid white;
-    border-radius: 25px;
-    margin: 20px;
-    cursor: pointer;
-  }
-  .textBut{
-    font-size: 24px;
-  }
+}
+
+.sidebar-text {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+  color:white;
+}
+.hello{
+  color:white;
+  font-size: 40px;
+}
+.image-container {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 30px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.left, .leftH{
+  display: flex;
+  align-items: center;
+}
+.leftH{
+  max-height: 40px;
+}
+.firstPay, .firstPayH{
+  color: white;
+  font-size: 50px;
+}
+.firstPayH{
+  font-size: 30px;
+}
+.firstLogo {
+  max-width: 100px;
+  height: auto;
+}
+
+.firstPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 500px;
+  background-color: #100f59;
+  border-radius: 5px;
+  height: 20px;
+  margin: 10px;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 200px;
+  margin-left: 50px;
+  color:white
+}
+
+.letters {
+  color: white;
+  margin: 2px;
+}
+
+.butGoToLearn {
+  display: flex;
+  margin: 10px;
+  width: 250px;
+  height: 30px;
+  background-color: #100f59;
+  border-radius: 5px;
+  align-content: center;
+  align-items: center;
+}
+
+.but-home {
+  border: none;
+  border-radius: 25px;
+  background: none;
+  color: #100f59;
+  font-size: 30px;
+  margin: 30px;
+}
+.butNP{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.buttonNP{
+  border: none;
+  background: none;
+  color: #100f59;
+  font-size: 20px;
+  margin-left:25px
+}
+.buttonNPHead{
+  border: none;
+  background: none;
+  color: white;
+}
+.textMain{
+  color:white;
+  font-size: 36px;
+}
+.butAdmin{
+  width: 250px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin: 20px;
+  cursor: pointer;
+}
+.textBut{
+  font-size: 24px;
+}
+.ssyl{
+  display: flex;
+  margin: 10px;
+  width: 350px;
+  height: 30px;
+  background-color: #100f59;
+  border-radius: 5px;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-
+import Header from "./Header";
 const Prosmotr = () => {
     
 
     return (
+        <>
+  <Header currentDay={0}/>
         <div className='days'>
             <Link to='/prosmotr/day1' className='day'>
                 <p>
@@ -68,6 +70,7 @@ const Prosmotr = () => {
             </Link>
 
         </div>
+        </>
     );
 }
 

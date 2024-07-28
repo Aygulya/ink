@@ -12,9 +12,12 @@ import chat6 from '../assets/image/chat-6.png'
 import block from '../assets/image/block.jpg'
 import day7 from '../assets/image/day7.jpg'
 import ButtonNP from '../buttonNP'
+import Header from '../Header'
 const Day7 = () =>{
 
     return(
+        <>
+                            <Header currentDay={7} /> 
         <div className= "allDay">
         
             <p className='textDay8'>
@@ -32,6 +35,7 @@ const Day7 = () =>{
             </p>
             <ButtonNP currentDay={7}/>
         </div>
+        </>
     )
 }
 

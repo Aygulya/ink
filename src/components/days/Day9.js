@@ -4,9 +4,12 @@ import "./Day.css"
 import banki from '../assets/image/banki1.png'
 import banki1 from '../assets/image/banki-2.png'
 import ButtonNP from '../buttonNP'
+import Header from '../Header'
 const Day9 = () =>{
 
     return(
+        <>
+                            <Header currentDay={9} /> 
         <div className= "allDay">
             <h3>Сверка выписки и нахождение расхождения баланса</h3>
 <p className='textDay'>
@@ -68,6 +71,7 @@ const Day9 = () =>{
 </Link>
 <ButtonNP currentDay={9}/>
         </div>
+        </>
     )
 }
 

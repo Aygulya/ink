@@ -7,9 +7,12 @@ import day103 from '../assets/image/day103.png'
 import day104 from '../assets/image/day104.png'
 import day105 from '../assets/image/day105.png'
 import ButtonNP from '../buttonNP'
+import Header from '../Header'
 const Day10 = () =>{
 
     return(
+        <>
+                            <Header currentDay={10} /> 
         <div className= "allDay">
            <p className='textDay'>
            <a href='https://forms.gle/EuJxt6A8RrBkqNhE6' target="_blank" rel="noopener noreferrer">
@@ -38,6 +41,7 @@ const Day10 = () =>{
             </p>
             <ButtonNP currentDay={10}/>
         </div>
+        </>
     )
 }
 

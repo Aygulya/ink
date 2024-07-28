@@ -16,9 +16,12 @@ import day85 from '../assets/image/day85.png'
 import day86 from '../assets/image/day86.png'
 import "./Day.css"
 import ButtonNP from '../buttonNP'
+import Header from '../Header'
 const Day8 = () =>{
 
     return(
+      <>
+                            <Header currentDay={8} /> 
         <div className= "allDay">
                         <p className='textDay8'>
                         <img src={img1} alt='page1'/>
@@ -63,6 +66,7 @@ const Day8 = () =>{
 </p>
 <ButtonNP currentDay={8}/>
         </div>
+        </>
     )
 }
 

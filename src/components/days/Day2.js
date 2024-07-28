@@ -15,8 +15,11 @@ import l3 from '../assets/image/logic3.jpg'
 import day3 from '../assets/image/day3.png'
 import "./Day.css"
 import ButtonNP from '../buttonNP'
+import Header from '../Header'
 const Day2 = () => {
     return (
+        <>
+                            <Header currentDay={2} /> 
         <div className="allDay">
             <h3>Принцип работы системы</h3>
             <p className='textDay8'>
@@ -162,6 +165,7 @@ const Day2 = () => {
        </p>
        <ButtonNP currentDay={2}/>
         </div>
+        </>
     )
 }
 
