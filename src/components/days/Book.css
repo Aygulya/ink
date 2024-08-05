@@ -1,0 +1,89 @@
+.book-container {
+    width: 100vw; /* Ширина контейнера книги на всю ширину экрана */
+    height: 950px; /* Высота контейнера книги на всю высоту экрана */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+  }
+  
+  .page {
+    width: 1020px; /* Ширина страницы книги */
+    height: 100%; /* Высота страницы книги */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-image {
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+  /* Например, если компонент FlipPage имеет класс .flip-page, вы можете попробовать */
+.flip-page {
+    width: 650px !important; /* Установите нужную ширину */
+    height: 900px !important;
+  }
+  
+  /* И также настройте ширину для страницы внутри FlipPage */
+  .flip-page .page {
+    width: 1020px !important; /* Установите нужную ширину */
+  }
+  .text-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-item {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-item span {
+    margin-right: 10px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .copy-button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hidden-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .hidden-link:hover {
+    text-decoration: underline;
+  }
+  .h{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+  }

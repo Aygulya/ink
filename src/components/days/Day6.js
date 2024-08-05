@@ -1,8 +1,12 @@
 import React from 'react'
 import "./Day.css"
-import limit from '../assets/image/limitsBanks.jpg'
+import limit from '../assets/image/limitsBanks.png'
+import s1 from "../assets/day4/systLimits1.jpg"
+import s2 from "../assets/day4/s2.jpg"
+import s3 from "../assets/day4/s3.jpg"
 import spisok from '../assets/image/spisokUrovni.jpg'
 import img1 from '../assets/image/day5.png'
+import imstop from '../assets/image/stop.jpg'
 import img2 from '../assets/image/day5.2.png'
 import orOrBl from '../assets/image/orange.png'
 import ButtonNP from '../buttonNP'
@@ -26,9 +30,14 @@ const Day6 = () =>{
 </p>
 <h3>ЛИМИТЫ: </h3>
 <p className='textDay8'>
-<img src={limit} alt='Limits'/><br/><br/>
+<img src={limit} alt='Limits'/>
 </p>
-<p className='textDay'>
+<p className='textDay8'>
+<img src={s1} alt='Limits'/>
+<img src={s2} alt='Limits'/>
+<img src={s3} alt='Limits'/>
+</p>
+{/* <p className='textDay'>
 Информация о лимитах - важная часть рабочего процесса.<br/>
 Понимание лимитов помогает при обращении агента с тем или
 иным запросом. Самый частый вопрос, ответ на который кроется
@@ -52,7 +61,7 @@ const Day6 = () =>{
 Тут всё индивидуально, и распознаётся только в ходе общения с
 агентом, так как мы не можем заранее знать об особенностях
 каждой карты агента.<br/>
-</p>
+</p> */}
 <h3>РАНГИ:</h3>
 <p className='textDay'>
 Ранг ощутимо влияет на эффективность работы агента,
@@ -83,6 +92,7 @@ const Day6 = () =>{
             </p>
             <p className='textDay8'>
             <img src={img1} alt='promo'/>
+            <img src={imstop}/>
             <img src={img2} alt='promo'/>
             </p>
 

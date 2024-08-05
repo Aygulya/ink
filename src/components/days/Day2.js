@@ -30,15 +30,15 @@ const Day2 = () => {
             <img src={img1} alt="Принцип работы системы" />
             </p>
 
-            <h3>ПУТЬ СОЗДАНИЯ ЗАЯВКИ</h3>
+            {/* <h3>ПУТЬ СОЗДАНИЯ ЗАЯВКИ</h3>
             <p className='textDay8'>
             <img src={img2} alt="Путь создания заявки" />
             <img src={day3}/>
-            </p>
+            </p> */}
 
             <h3>Статусы инвойсов</h3>
             {/* <h4>Tass a Coin</h4> */}
-            <p className="textDay">
+            <p className="textDay8">
                 <img src={stat}/>
           {/* <span className='blue'>Новый </span>- короткий стартовый статус инвойса - идёт
  подбор карты дропа<br/>

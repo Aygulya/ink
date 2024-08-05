@@ -11,14 +11,15 @@ import img9 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-000
 import img10 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0004.jpg'
 import img11 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0005.jpg'
 import img12 from '../assets/image/p/╨д╨и ╨б╨С╨Х╨а (1)_page-0006.jpg'
-import imge1 from '../assets/image/newPl/1.png'
-import imge2 from '../assets/image/newPl/2.png'
-import imge3 from '../assets/image/newPl/3.png'
-import imge4 from '../assets/image/newPl/4.png'
-import imge5 from '../assets/image/newPl/5.png'
-import imge6 from '../assets/image/newPl/6.png'
-import imge61 from '../assets/image/newPl/61.png'
-import day3 from '../assets/image/day3.png'
+import imge1 from '../assets/day3/sbp1.jpg'
+import imge2 from '../assets/day3/sbp2.jpg'
+import imge3 from '../assets/day3/i1.jpg'
+import imge4 from '../assets/day3/i2.jpg'
+// import imge5 from '../assets/image/newPl/5.png'
+// import imge6 from '../assets/image/newPl/6.png'
+// import imge61 from '../assets/image/newPl/61.png'
+// import day3 from '../assets/image/day3.png'
+
 import ButtonNP from '../buttonNP'
 import "./Day.css"
 import Header from '../Header'
@@ -44,18 +45,16 @@ const Day3 = () =>{
                 <img src={img11}/>
                 <img src={img12}/>
             </p>
-            {/* <h3>Просроченный депозит</h3>
+            <h3>Как работать с СБП</h3>
             <p className='textDay8'>
                 <img src={imge1}/>
                 <img src={imge2}/>
+             </p> 
+             <h3>Работа_по_“текучке_синей_вавады”</h3>
+            <p className='textDay8'>
                 <img src={imge3}/>
                 <img src={imge4}/>
-                <img src={imge5}/>
-                <img src={imge6}/>
-                <img src={imge61}/>
-                {/* <img src={imge7}/>
-                <img src={imge8}/> */}
-            {/* </p> */} 
+             </p> 
             <ButtonNP currentDay={3}/>
         </div>
         </>

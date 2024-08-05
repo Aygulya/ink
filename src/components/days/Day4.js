@@ -1,5 +1,6 @@
 
 import React from 'react';
+import i1 from "../assets/day4/i1.jpg"
 import img1 from "../assets/image/tikets/01.png";
 import img2 from "../assets/image/tikets/02.png";
 import img3 from "../assets/image/tikets/03.png";
@@ -23,7 +24,10 @@ const Day4 = () => {
     <>
       <Header currentDay={4} />
       <div className="allDay">
-        <h3>ПРИНЦИП РАБОТЫ С ТИКЕТАМИ</h3>
+        <p className='textDay8'>
+          <img src={i1}/>
+        </p>
+        {/* <h3>ПРИНЦИП РАБОТЫ С ТИКЕТАМИ</h3>
         <p className='textDay'>
           <span className='bold'>ТИКЕТЫ</span> - ЗАЯВКИ И СИТУАЦИИ, КОГДА НАМ НЕОБХОДИМО ВМЕШАТЬСЯ В СИТУАЦИЮ И РАЗОБРАТЬ ЕЁ БОЛЕЕ ДЕТАЛЬНО. ИХ БЫВАЕТ НЕСКОЛЬКО ВИДОВ, ОСНОВНЫЕ НАШИ 4 ВИДА:
         </p>
@@ -80,7 +84,7 @@ const Day4 = () => {
           Если же было - просим предоставить чек/чеки.
           Также, оповещаем вас, что алгоритм системы временно ограничевает соответствующую карту на получение ордеров.
           Чтобы активировать карту, необходимо лишь деактивировать и активировать аккаунт заново.
-        </p>
+        </p> */}
         <h3>ПРИМЕРЫ СООБЩЕНИЙ ПО ТИКЕТАМ:</h3>
         <p className='textDay'>
           <span className='bold'>1) Просроченная выплата:</span><br /><br />
