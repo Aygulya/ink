@@ -5,14 +5,22 @@ import chats from '../assets/image/chats.png'
 import BookAnimation from './BookAnimation'
 import ButtonNP from '../buttonNP'
 import Header from '../Header';
+import day1DM from '../assets/image/day1DM.png'
+import day1TAC from '../assets/image/day1TAC.png'
+import d111 from "../assets/image/111.jpg"
+import d112 from '../assets/image/112.jpg'
 const Day1 = () =>{
 
     return(
         <>
                             <Header currentDay={1} /> 
         <div className= "allDay">
-            
-         <h1 className='h'> Вступление </h1>  
+        <div className='textDay8'>
+
+<img src={d111}/>
+<img src={d112}/>
+</div>
+         {/* <h1 className='h'> Вступление </h1>  
 <p className='textDay'>В 2015 году небольшая команда разработчиков начала работу над проектом. 
 <span className='bold'> 30 августа 2017</span> года был выпущен первый релиз основного продукта и именно эту дату
 мы считаем Днем Рождения Компании <span className='bold'>«Inktech»</span>. Сегодня наш продукт имеет более 2
@@ -53,8 +61,8 @@ const Day1 = () =>{
 Как бы клиент не ошибся при переводе нашей платёжной системе (перевод
 не той суммы и не на ту карту), мы можем отследить перевод, если была
 задействована карта зарегистрированная в нашей системе.</p>
-<h3>Организационные моменты</h3>
-<ul className='textListDay'>
+<h3>Организационные моменты</h3> */}
+{/* <ul className='textListDay'>
     <li>
     Запрещены бумажные носители.
     </li>
@@ -86,12 +94,12 @@ const Day1 = () =>{
      Запрещено обсуждать внутри-рабочие моменты при посторонних (не
 сотрудники TaC) 
     </li>
-</ul>
+</ul> */}
 <div className='textDay8'>
 
     <BookAnimation/>
 </div>
-<div className='otstup'> <h3 className='h'>Иерархия</h3></div>
+{/* <div className='otstup'> </div> */}
 
 <p className='textDay8'>
 <img src={ierarhia} alt="Иерархия" />
@@ -163,6 +171,17 @@ const Day1 = () =>{
 <p className='textDay8'>
     <img src={chats} alt='Chats'/>
 </p>
+<h3>2 ЛК в которых будет проводиться работа оператора технической поддержки:</h3>
+<p className='textDay8'>
+    DM
+    <img src={day1DM} alt='Chats'/>
+</p>
+<p className='textDay8'>
+    TAC
+    <img src={day1TAC} alt='Chats'/>
+</p>
+
+
 <ButtonNP currentDay={1}/>
 
         </div>

@@ -16,6 +16,10 @@ import day3 from '../assets/image/day3.png'
 import "./Day.css"
 import ButtonNP from '../buttonNP'
 import Header from '../Header'
+import stat from '../assets/image/status.png'
+import prDep1 from '../assets/image/prDep1.jpg'
+import prDep2 from '../assets/image/prDep2.jpg'
+import starRec from "../assets/image/starRec.jpg"
 const Day2 = () => {
     return (
         <>
@@ -33,9 +37,10 @@ const Day2 = () => {
             </p>
 
             <h3>Статусы инвойсов</h3>
-            <h4>Tass a Coin</h4>
-            <p className="textDay8">
-          <span className='blue'>Новый </span>- короткий стартовый статус инвойса - идёт
+            {/* <h4>Tass a Coin</h4> */}
+            <p className="textDay">
+                <img src={stat}/>
+          {/* <span className='blue'>Новый </span>- короткий стартовый статус инвойса - идёт
  подбор карты дропа<br/>
  <span className='blue'>Создан </span> - короткий стартовый статус инвойса. Требует
  дополнения<br/>
@@ -49,7 +54,7 @@ const Day2 = () => {
  <span className='red'>Отклонен </span>- вместо просрочен<br/><br/>
  <span className='red'>Отменен </span>- финальный статус (скорее всего закрыт через
 тикет, либо ошибка в системе)<br/><br/>
-<span className='green'>Оплачен </span>- финальный
+<span className='green'>Оплачен </span>- финальный */}
 
             </p>
 
@@ -85,6 +90,24 @@ const Day2 = () => {
             <p className='textDay8'>
             <img src={img3}/>
             </p>
+            <h3>Подбор новой заявки</h3>
+<p className='textDay'>
+
+Новая заявка подбирается в случае, если с инвойсом, который указала Синяя, чтото не так.<br/><br/>
+Новая заявка необходима если:<br/>
+- По Invoice ID из TaC не находит ордер в DM, это означает что инвойс «битый».<br/>
+- Нужно совершить перевод по старым реквизитам, а карта Агента-получателя в
+заморозке.<br/>
+- Затянувшийся кейс.<br/><br/>
+Для того чтобы подобрать новую заявку, должно быть соблюдено несколько
+условий:<br/>
+1. Новая заявка должна принадлежать одному и тому же Merchant User ID<br/>
+2. Новая заявка должна отображаться в DM при поиске через Invoice ID<br/>
+3. Статус ордера в DM должен быть “Просрочен”.<br/>
+4. Карта получателя в новой заявке НЕ должна быть: заморожена,
+заблокирована, стоять только на вывод.
+5. Заявка должна быть не старше 20 дней с момента создания.<br/>
+</p>
             <p className='textDay8'>
             <img src={newWay}/>
             </p>
@@ -99,7 +122,10 @@ const Day2 = () => {
             <img src={img6}/>
             <img src={img7}/>
             </p> */}
-            <Link to="/https://docs.google.com/presentation/d/1UAqsvwk0bVTGitlzcpMsSTM1S-Sn9UAoMS3zK4Qbrmo/edit?usp=sharing">Презинтация - "работа по синей"</Link>
+                        <a href='https://docs.google.com/presentation/d/1UAqsvwk0bVTGitlzcpMsSTM1S-Sn9UAoMS3zK4Qbrmo/edit?usp=sharing'  target="_blank" rel="noopener noreferrer">
+                        Презинтация - "работа по синей"
+      </a>
+            {/* <Link to="/https://docs.google.com/presentation/d/1UAqsvwk0bVTGitlzcpMsSTM1S-Sn9UAoMS3zK4Qbrmo/edit?usp=sharing">Презинтация - "работа по синей"</Link> */}
        <h3>СХЕМА РАБОТЫ ПО СИНЕЙ</h3>
        <p className='textDay'>
       <span className='bold'> РАБОТА ПО СИНЕЙ </span>- схема<br/><br/>
@@ -153,15 +179,26 @@ const Day2 = () => {
 Если вариант <span className='bold'>1 </span>  - всё пройдёт быстро - проводим оплату, так как нашли
 верную заявку(инвойс). В таком случае, после ручного зачисления, тэгая
 сообщение от синей, пишем:<br/>
-«Оплачен по …» (по соответствующему инвойсу). ГОТОВО.<br/>
+«Оплачен по …» (по соответствующему инвойсу). ГОТОВО.<br/></p>
+<p className='textDay8'>
+    <img src={prDep1}/>
+    <img src={prDep2}/>
+</p>
+
+<p className='textDay'>
 Если <span className='bold'>2 </span>  вариант - значит этот кейс называется «старые реквизиты», и
 мы работаем по ним(далее будут слайды и подробное изучение этого
 кейса).
        </p>
+
+
+
+
        <p className='textDay8'>
        <img src={l1}/>
        <img src={l2}/>
        <img src={l3}/>
+       <img src={starRec}/>
        </p>
        <ButtonNP currentDay={2}/>
         </div>

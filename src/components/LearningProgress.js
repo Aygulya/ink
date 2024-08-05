@@ -233,7 +233,7 @@ import './learnStyles.css';
 import { useNavigate, Link } from 'react-router-dom';
 
 function getCurrentDay() {
-    const startDate = new Date('2024-07-15'); // Обновите эту дату на дату начала обучения
+    const startDate = new Date('2024-08-05'); // Обновите эту дату на дату начала обучения
     const today = new Date();
     const daysPassed = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
     const weekendsPassed = Math.floor((daysPassed + startDate.getDay()) / 7) * 2;

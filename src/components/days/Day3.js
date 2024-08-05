@@ -44,7 +44,7 @@ const Day3 = () =>{
                 <img src={img11}/>
                 <img src={img12}/>
             </p>
-            <h3>Просроченный депозит</h3>
+            {/* <h3>Просроченный депозит</h3>
             <p className='textDay8'>
                 <img src={imge1}/>
                 <img src={imge2}/>
@@ -55,7 +55,7 @@ const Day3 = () =>{
                 <img src={imge61}/>
                 {/* <img src={imge7}/>
                 <img src={imge8}/> */}
-            </p>
+            {/* </p> */} 
             <ButtonNP currentDay={3}/>
         </div>
         </>

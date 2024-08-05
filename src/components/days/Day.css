@@ -44,29 +44,23 @@
 .photoDay1{
     max-width: 90%;
 }
-.bookContainer {
-    position: relative; /* Сделаем этот контейнер относительно позиционированным */
+/* .bookContainer {
+    position: relative; 
     width: 500px;
-    height: 600px; /* Можно использовать фиксированную высоту, если это нужно */
+    height: 600px; 
 }
 
 .bookContainer img {
-    position: absolute; /* Позиционируем страницы абсолютно внутри контейнера */
-    /* top: 0;
-    left: 10; */
-    /* margin:50px 0; */
+    position: absolute; 
     height: 600px;
-    opacity: 0; /* Начнем с нулевой прозрачности */
-    transition: opacity 0.5s ease; /* Добавим плавный переход для анимации появления */
+    opacity: 0;
+    transition: opacity 0.5s ease; 
 }
 
 .bookContainer img.visible {
-    opacity: 1; /* Показываем только видимые страницы */
+    opacity: 1; 
 }
-.buttonsBook{
-    /* display: flex;
-    justify-content: space-between; */
-}
+
 .book{
     display: flex;
     flex-direction: row;
@@ -80,7 +74,7 @@
     border: none;
     background: none;
     margin:50px;
-}
+} */
 /* .next{
     margin-left:20px;
 } */
@@ -108,4 +102,52 @@ color:chartreuse
 }
 .red{
 color:red
+}
+
+.bookContainer {
+    position: relative; /* Сделаем этот контейнер относительно позиционированным */
+    width: 500px;
+    height: 600px; /* Можно использовать фиксированную высоту, если это нужно */
+}
+
+.bookContainer img {
+    position: absolute; /* Позиционируем страницы абсолютно внутри контейнера */
+    /* top: 0;
+    left: 10; */
+    /* margin:50px 0; */
+    height: 600px;
+    opacity: 0; /* Начнем с нулевой прозрачности */
+    transition: opacity 0.5s ease; /* Добавим плавный переход для анимации появления */
+}
+
+.bookContainer img.visible {
+    opacity: 1; /* Показываем только видимые страницы */
+}
+.buttonsBook{
+    display: flex;
+    justify-content: flex-start;
+    /* width: 100%; */
+    align-items: center;
+    flex-direction: column;
+}
+.book{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:50px;
+    align-items: center;
+}
+.prev, .next{
+    height: 20px;
+    border: none;
+    background: none;
+    margin-top:50px;
+}
+/* .next{
+    margin-left:20px;
+} */
+.arrow{
+    width: 40px;
+    height:40px;
 }
