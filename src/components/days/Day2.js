@@ -196,7 +196,7 @@ const Day2 = () => {
 
        <p className='textDay8'>
        <img src={l1}/>
-       <img src={l2}/>
+       {/* <img src={l2}/> */}
        <img src={l3}/>
        <img src={starRec}/>
        </p>
