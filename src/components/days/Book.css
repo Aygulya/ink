@@ -35,6 +35,9 @@
   .flip-page .page {
     width: 1020px !important; /* Установите нужную ширину */
   }
+  .flip-pages{
+
+  }
   .text-container {
     margin-top: 20px;
     width: 100%;
@@ -87,3 +90,5 @@
     align-items: center;
     font-style: italic;
   }
+
+  

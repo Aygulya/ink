@@ -93,7 +93,7 @@ const Day6 = () =>{
             <p className='textDay8'>
             <img src={img1} alt='promo'/>
             <img src={imstop}/>
-            <img src={img2} alt='promo'/>
+            {/* <img src={img2} alt='promo'/> */}
             </p>
 
             <h3>Оранжевая и Синаяя</h3>
