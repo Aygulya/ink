@@ -3,6 +3,16 @@ import { Link } from 'react-router-dom'
 import "./Day.css"
 import banki from '../assets/image/banki1.png'
 import banki1 from '../assets/image/banki-2.png'
+import d1 from '../assets/day9/d91.jpg'
+import d2 from '../assets/day9/d2.jpg'
+import d3 from '../assets/day9/d3.jpg'
+import d4 from '../assets/day9/d4.jpg'
+import d5 from '../assets/day9/d5.jpg'
+import d6 from '../assets/day9/d6.jpg'
+import d91 from '../assets/day9/d/d1.jpg'
+import d92 from '../assets/day9/d/d2.jpg'
+import d93 from '../assets/day9/d/d3.jpg'
+import d94 from '../assets/day9/d/d4.jpg'
 import ButtonNP from '../buttonNP'
 import Header from '../Header'
 const Day9 = () =>{
@@ -11,10 +21,10 @@ const Day9 = () =>{
         <>
                             <Header currentDay={9} /> 
         <div className= "allDay">
-            <h3>Сверка выписки и нахождение расхождения баланса</h3>
-<p className='textDay'>
-
-Для того, чтобы приступить к сверке, вам необходимо узнать у дропа
+            {/* <h3>Сверка выписки и нахождение расхождения баланса</h3> */}
+<p className='textDay8'>
+<img src={d1}/>
+{/* Для того, чтобы приступить к сверке, вам необходимо узнать у дропа
 информацию: <br/><br/>
 <span className='bold'>1.</span> Спрашиваем по <span className='bold'>какой </span>карте/картам оно возникло (и после этого
 замораживаем карту!).<br/>
@@ -58,9 +68,15 @@ const Day9 = () =>{
 Так же возможен случай, когда к <span className='bold'>одному</span> счёту привязано <span className='bold'>несколько </span>карт и
 возможно выводы могли совершаться с другой карты от счёта илил
 подтверждены депы по другой карте, соответственно при этом всём
-алгоритм выше тот же самый.<br/><br/>
+алгоритм выше тот же самый.<br/><br/> */}
 Все случаи индивидуальны, но это основные моменты, по которым мы
 первично сможем определить причину расхождения.
+</p>
+<p className='textDay8'>
+    <img src={d91}/>
+    <img src={d92}/>
+    <img src={d93}/>
+    <img src={d94}/>
 </p>
 <p className='textDay8'>
     <img src={banki}/>
@@ -69,6 +85,14 @@ const Day9 = () =>{
 <Link to='https://docs.google.com/spreadsheets/d/12sSKbMnPkdBMl82fjsbMGUAYihEex_bq3G-BBw4pLkE/edit?usp=sharing'>
 Таблица сверки расхождения
 </Link>
+<p className='textDay8'>
+    <img src={d2}/>
+    <img src={d3}/>
+    <img src={d4}/>
+    <img src={d5}/>
+    <img src={d6}/>
+
+</p>
 <ButtonNP currentDay={9}/>
         </div>
         </>

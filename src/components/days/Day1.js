@@ -9,6 +9,7 @@ import day1DM from '../assets/image/day1DM.png'
 import day1TAC from '../assets/image/day1TAC.png'
 import d111 from "../assets/image/111.jpg"
 import d112 from '../assets/image/112.jpg'
+import day102 from '../assets/image/day102.png'
 const Day1 = () =>{
 
     return(
@@ -181,7 +182,10 @@ const Day1 = () =>{
     <img src={day1TAC} alt='Chats'/>
 </p>
 
-
+<h1>Горячие клавиши</h1>
+            <p className='textDay8'>
+                <img src={day102}/>
+            </p>
 <ButtonNP currentDay={1}/>
 
         </div>
