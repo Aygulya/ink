@@ -15,10 +15,7 @@ import imge1 from '../assets/day3/sbp1.jpg'
 import imge2 from '../assets/day3/sbp2.jpg'
 import imge3 from '../assets/day3/i1.jpg'
 import imge4 from '../assets/day3/i2.jpg'
-// import imge5 from '../assets/image/newPl/5.png'
-// import imge6 from '../assets/image/newPl/6.png'
-// import imge61 from '../assets/image/newPl/61.png'
-// import day3 from '../assets/image/day3.png'
+
 
 import ButtonNP from '../buttonNP'
 import "./Day.css"

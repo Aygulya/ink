@@ -1,7 +1,7 @@
 
 import React, { useContext, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import LearningProgress from './LearningProgress';
+// import LearningProgress from './LearningProgress';
 //import { AuthContext } from './utils/AuthContext'; // Импортируем контекст аутентификации
 import './learnStyles.css'
 import logo from '../components/assets/image/logo.png';
@@ -28,10 +28,13 @@ function MainScreen() {
         <img src={logo} alt="logo" className="firstLogo" />
        <p className='firstPay'>PaysPro</p> 
         </div>
-        <div className="right">
-        <Link to='/prosmotr'>
+        <div className="right obuchenie">
+        <a href="https://script.google.com/a/macros/eyeconweb.com/s/AKfycbw_rTM2ArZJurZl0CdVSMyp54mq1z1uQDk1waS0NTJMh3N-FtJhTkTZndBh4O194hgD/exec"  target="_blank" rel="noopener noreferrer">
+      <button className='butGoToLearn prosmotr letters'>Перейти к обучению</button>
+      </a>
+        {/* <Link to='/prosmotr'>
       <div className='prosmotr'>Просмотреть все дни</div>
-      </Link>
+      </Link> */}
         {/* <button onClick={toggleSidebar} className="sidebar-button">☰</button> */}
         </div>
       </div>
@@ -48,9 +51,9 @@ function MainScreen() {
           <h1 className='textMain'>Добро пожаловать на страницу обучения</h1>
           <p className='textMain'>Тут ты найдешь персональный план обучения и многое другое.</p>
           <div className='centreLR'>
-        <div className="leftR">
+        {/* <div className="leftR">
           <LearningProgress />
-          </div>
+          </div> */}
           <div className='right'>
             <h1 className='prosmotr'>Полезные ссылки</h1>
             <a href='https://docs.google.com/spreadsheets/d/1Yba9g6JQDEfO7OAUdUNLvJ9Ma9b4Td-H_VGbBGUShy4/edit?usp=sharing'  target="_blank" rel="noopener noreferrer">
