@@ -68,6 +68,9 @@ function MainScreen() {
       <a href='https://docs.google.com/spreadsheets/d/12sSKbMnPkdBMl82fjsbMGUAYihEex_bq3G-BBw4pLkE/edit?gid=1941705862#gid=1941705862'  target="_blank" rel="noopener noreferrer">
       <button className='butGoToLearn prosmotr letters'>Сверка расхождений</button>
       </a>
+      <a href='https://docs.google.com/spreadsheets/d/1TdFvLwcGD9208iRhchzRoHWaj5LjipOhXQfdylOWbl8/edit?gid=331912401#gid=331912401' target='_blank' rel='noopener noreferrer'>
+      <button className='butGoToLearn prosmotr letters'>Главная страница обучения</button>
+      </a>
           </div>
           </div>
           {/* <button onClick={goToLearn}>Перейти к обучению</button> */}
